@@ -10,6 +10,7 @@ body {
   align-items: left;
   position: relative;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	font-size: 125%;
   border: 10px;
 	border-color: blanchedalmond;
   padding: 10px;
@@ -29,3 +30,22 @@ div#footer {
 	padding: 2px;
 	opacity: 90%;
 }
+div#card-body
+{
+	background-color: aquamarine;
+}
+input
+{
+	background-color:antiquewhite;
+	color:cadetblue
+}
+Select
+{
+	background-color: cadetblue;
+	color: bisque;
+}
+a
+{
+	color: darkblue;
+}
+

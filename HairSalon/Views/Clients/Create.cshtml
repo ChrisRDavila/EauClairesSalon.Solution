@@ -9,14 +9,16 @@
 <p><strong>NOTE:</strong> You need to have at least one stylist before you can add a client!</p>
 <p>Go to @Html.ActionLink("this page", "Create", "Stylists") to add a stylist.</p>
 
+<div class="input">
 @using (Html.BeginForm())
 {
   @Html.LabelFor(model => model.ClientName)
-  @Html.TextBoxFor(model => model.ClientName)
+  @Html.TextBoxFor(model => model.ClientName)<br>
   @Html.LabelFor(model => model.Appointments)
-  @Html.TextBoxFor(model => model.Appointments)
+  @Html.TextBoxFor(model => model.Appointments)<br>
   @Html.LabelFor(model => model.Stylist)
   @Html.DropDownList("StylistId")
   <input type="submit" value="Add new client" />
 }
+</div>
 <p>@Html.ActionLink("Show all clients", "Index")</p>
