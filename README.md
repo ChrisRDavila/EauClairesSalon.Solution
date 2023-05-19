@@ -1,19 +1,23 @@
-# (Application Name) remove parens
+# Eau Claire's Salon
 
-#### (Brief Description of Application) remove parens
+#### Applcation for fictitious salon owner to track Employee and Client data and work realtionships
 
-#### By (Your Name Here) remove parans
+#### By Christopher Ross Davila
 
 ## Technologies Used
 
-* _dot net 6_
-* _cshtml_
+* _.Net 6.0_
+* _ASP.Net Core_
 * _C#_
-* _ASP Core MVC_
-_MS Build_
+* _Entity Framework Core_
+* _Git Hub_
+* _VS code_
+* _MySQL_
+* _MySQL Workbench_
 
 
 ## Description
+### Client Web applicaion that allows client to monitor, update and display Employee and Client data using one to many relationship in MySQL Schema in an MVC C Sharp project set up. This application utiilizes Helper methods and viewbag to simplify the cshtml code for user interface and DRY code on production side
 
 ## Setup/Installation Requirements
 
