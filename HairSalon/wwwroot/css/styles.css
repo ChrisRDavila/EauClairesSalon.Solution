@@ -1,9 +1,32 @@
+* {
+  background-image: url('./background1.jpeg');
+  
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 20vh;
+  align-items: left;
+  position: relative;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  border: 10px;
+  padding: 10px;
+  margin: 10px;
+  opacity: 100%;
+}
+.container
+{
+	color: rgb(95, 39, 237);
+	background-color: antiquewhite;
+	opacity: 50%;
+}
+
 div#footer {
 	position:fixed;
 	bottom:0px;
 	left:0px;
 	width:100%;
 	color:#CCC;
-	background:#333;
+	background:#9c4747;
 	padding:8px;
 }
