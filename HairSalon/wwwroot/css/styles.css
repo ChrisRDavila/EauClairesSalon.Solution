@@ -1,7 +1,7 @@
 body {
   background-image: url('./background1.jpeg');
-  color: indigo;
-	text-shadow: 20px black;
+  color: rgb(130, 63, 0);
+	text-shadow: 20px rgb(212, 5, 5);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -15,7 +15,9 @@ body {
 	border-color: blanchedalmond;
   padding: 10px;
   margin: 10px;
-  opacity: 83%;
+  opacity: 75%;
+	text-align: justify;
+
 }
 
 div#footer {
@@ -30,10 +32,7 @@ div#footer {
 	padding: 2px;
 	opacity: 90%;
 }
-div#card-body
-{
-	background-color: aquamarine;
-}
+
 input
 {
 	background-color:antiquewhite;
@@ -46,6 +45,15 @@ Select
 }
 a
 {
-	color: darkblue;
+	color: darkgoldenrod;
+	/* background-color: brown; */
 }
-
+card
+{
+	background-color: blanchedalmond;
+	opacity: 90%;
+	border-radius: 23px;
+	border: 10px;
+	padding: 10px;
+	margin: 10px;
+}
