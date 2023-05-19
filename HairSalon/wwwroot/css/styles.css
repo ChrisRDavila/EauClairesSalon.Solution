@@ -1,6 +1,6 @@
 body {
   background-image: url('./background1.jpeg');
-  color: lightslategrey;
+  color: indigo;
 	text-shadow: 20px black;
   background-size: cover;
   background-position: center;
@@ -14,7 +14,7 @@ body {
 	border-color: blanchedalmond;
   padding: 10px;
   margin: 10px;
-  opacity: 75%;
+  opacity: 83%;
 }
 
 div#footer {
@@ -27,5 +27,5 @@ div#footer {
 	background-color: blanchedalmond;
 	background-image: url('./background3.jpeg');
 	padding: 2px;
-	opacity: 75%;
+	opacity: 90%;
 }
