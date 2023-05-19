@@ -1,6 +1,7 @@
-* {
+body {
   background-image: url('./background1.jpeg');
-  
+  color: lightslategrey;
+	text-shadow: 20px black;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -10,23 +11,21 @@
   position: relative;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   border: 10px;
+	border-color: blanchedalmond;
   padding: 10px;
   margin: 10px;
-  opacity: 100%;
-}
-.container
-{
-	color: rgb(95, 39, 237);
-	background-color: antiquewhite;
-	opacity: 50%;
+  opacity: 75%;
 }
 
 div#footer {
 	position:fixed;
-	bottom:0px;
-	left:0px;
-	width:100%;
-	color:#CCC;
-	background:#9c4747;
-	padding:8px;
+	bottom: 10%;
+	left: 5px;
+	height: 40px;
+	width: 33%;
+	color:darkgoldenrod;
+	background-color: blanchedalmond;
+	background-image: url('./background3.jpeg');
+	padding: 2px;
+	opacity: 75%;
 }
