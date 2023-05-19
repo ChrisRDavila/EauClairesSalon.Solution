@@ -32,9 +32,10 @@
 ```
 * _3. cont'd: where [YOUR-DB-NAME] is going to be the database you import and connect (i.e. data_base), [YOUR-USER-NAME] will be your MySQL log in name and [YOUR-PASSWORD-HERE] will be your MySQL password_
 * _4. For next instructions please make sure you have access to MySQL and MySQLWorkbench_
-* _5. _create and connect your own database in MySQL Workbench via termimal commands or directly in MySQL workbench, the following instructions in this README will us MySQLWorkbench_
-* _Log in to MYSQL server using chosen log in name if changed or root if using default with _
-* _this format -> 
+* _5. _create and connect your own database in MySQL Workbench via termimal commands or directly in MySQL workbench, the following instructions in this README will use your termibal and MySQLWorkbench_
+* _Launch MySQL server using chosen log in name if changed or root if using default with `\$ mysql -u [YOUR-USER-NAME] -p[YOUR-PASSWORD-HERE] `_
+* _Open MySQL Workbench and Double click the MySQL instance in the connections section_
+* _Create a new schema in the connected server by clicking _ 
 * _2. Open your terminal (e.g., Terminal or GitBash) and navigate to this project's production directory called "ProjectFile"._
 * _3. In the command line, run the command `\$ dotnet run` to compile and execute the console application. Since this is a console application, you'll interact with it through text commands in your terminal._
 * _4. Optionally, you can run `\$ dotnet build` to compile this console app without running it._
