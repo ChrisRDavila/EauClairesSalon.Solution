@@ -40,17 +40,16 @@
 * _10. Create new tables for each Class we'll need in the project, with corresponding properties making sure that the ClassId fields are primary keys, integers, Not Null and Auto-incremented, also set up a foreign key property for our one to many relationship with a StylistID property for both tables and a default expression of '0' for the Clients property of StylistId, click apply to update table_
 * _11. using administration tab select DataExport option select created schema in to export window, choose dump structure only, select export to self-contained file and choose name that matches the [YOUR-DB-HERE] field set up in appsettings.json, and if desired set path to where created .sql file will be in the directory for the cloned project_
 * _12. click start export and this will create your .sql file to connect to the project file, exit mySQL_
-* _. In the command line, run the command `\$ dotnet run` to compile and execute the console application. Since this is a console application, you'll interact with it through text commands in your terminal._
-* _4. Optionally, you can run `\$ dotnet build` to compile this console app without running it._
-* _5. Use `\$ dotnet test run` in the Test directory to run test on the application_
-* _6. use `\$ dotnet watch run` to cycle the server_
-* _7. use `\$ dotnet watch run --launch-profile "production"` to run in production mode_
-
+* _13. Navigate to project file `\$ /HairSalon .`
+* _14. In the command line, run the command `\$ dotnet restore` to restore project files._
+* _15. Run `\$ dotnet build` to compile this console app without running it._
+* _16. use `\$ dotnet watch run` to cycle the server and navigate to your browser for UI interface_
+* _17. From splash page enter in necessary input fields to populate your Stylists, from there add clients to stylist as directed_
+* _18. If needed, Edit or delete entries on corresponding views as well_
 
 ## Known Bugs
 
-* _Any known issues_
-* _should go here_
+* _Date is entered as string to avoid DateOnly format_
 
 ## License
-[MIT](https://yourlicesnepage)
+[MIT](https://github.com/ChrisRDavila/EauClairesSalon.Solution/blob/main/License.txt)
