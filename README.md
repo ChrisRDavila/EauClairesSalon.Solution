@@ -21,17 +21,20 @@
 
 ## Setup/Installation Requirements
 
-<!-- Going forward, don't forget to include setup instructions in your README for an appsettings.json with a database connection string. -->
-
-* _1. Clone this repo._
-* _X. _dotnet add package MySqlConnector -v 2.2.0_
-* _8. _create the file appsettings.json, and what code to include in it. We recommend using the above formatting and directing users to replace [YOUR-USERNAME-HERE] and [YOUR-PASSWORD-HERE] with the user's own user and password values. also add [YOUR-DB-NAME] with database used_
-* _this format -> 
-<!-- {
-  "ConnectionStrings": {
+* _1. Clone this repo using `\$ git clone https://github.com/ChrisRDavila/EauClairesSalon.Solution.git`._
+* _2. Open your terminal (e.g., Terminal or GitBash) and navigate to the production directory called "EauClairesSalon.solution" and use command `\$ code .` to open project in vs code_
+* _3. _Create appsettings.json file to store database name, user name and password for connecting to MySQL database using this structure:_
+```cs
+ "ConnectionStrings": 
+{
     "DefaultConnection": "Server=localhost;Port=3306;database=[YOUR-DB-NAME];uid=[YOUR-USER-HERE];pwd=[YOUR-PASSWORD-HERE];"
-  }
-} -->
+}
+```
+* _3. cont'd: where [YOUR-DB-NAME] is going to be the database you import and connect (i.e. data_base), [YOUR-USER-NAME] will be your MySQL log in name and [YOUR-PASSWORD-HERE] will be your MySQL password_
+* _4. For next instructions please make sure you have access to MySQL and MySQLWorkbench_
+* _5. _create and connect your own database in MySQL Workbench via termimal commands or directly in MySQL workbench, the following instructions in this README will us MySQLWorkbench_
+* _Log in to MYSQL server using chosen log in name if changed or root if using default with _
+* _this format -> 
 * _2. Open your terminal (e.g., Terminal or GitBash) and navigate to this project's production directory called "ProjectFile"._
 * _3. In the command line, run the command `\$ dotnet run` to compile and execute the console application. Since this is a console application, you'll interact with it through text commands in your terminal._
 * _4. Optionally, you can run `\$ dotnet build` to compile this console app without running it._
